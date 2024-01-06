@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="
+    https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js
+    "></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="main-heading">Stock &nbsp; Market &nbsp;Portfolio</h1>
+    <div id="chart-section">
+            <canvas id="myChart"></canvas>
+            <ul id="chart-list">
+                <li class="chart-list-item"">
+                    <button  onclick="updateChart('1mo')"> 1 month</button>
+                </li>
+                <li class="chart-list-item">
+                    <button onclick="updateChart('3mo')"> 3 month</button>
+                </li>
+                <li class="chart-list-item">
+                    <button onclick="updateChart('1y')"> 1 Year</button>
+                </li>
+                <li class="chart-list-item">
+                    <button onclick="updateChart('5y')"> 5 Years</button>
+                </li>
+            </ul>
+
+
+    </div>
+    <div id="list-section">
+        <ul id="stock-list">
+
+        </ul>
+    </div>
+    <div id="detail-section">
+
+    </div>
+    <script src="chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

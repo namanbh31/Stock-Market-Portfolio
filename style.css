@@ -1,0 +1,101 @@
+body{
+    /* background-color: #0c1027; */
+    background-color: #1B1B4B;
+}
+#main-heading{
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    color: white;
+    font-family: 'Carattere', cursive;
+}
+#chart-section{
+    /* background-color: #01033C; */
+    background-color: #2B2B78;
+    position: relative;
+    height: 65vh;
+    width: 115vh;
+    border-radius: 25px 0 25px 0;
+    box-shadow: 150px;
+    margin-top:10vh;
+    margin-left: 5vh;
+    /* box-shadow:   10px 10px 10px 5px rgb(106, 112, 224) ; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#list-section{
+    top: 15vh;
+    right:  30vh;
+    position: absolute;
+}
+
+#stock-list{
+    z-index: 1;
+    position: relative;
+    list-style: none;
+}
+.stock-list-item{
+    margin: 2vh 0;
+}
+.list-button{
+    color: white;
+    background-color: #2A2A79;
+    padding: 8px;
+    width: 10vh;
+    border-radius: 20px;
+}
+.list-button:hover{
+    background-color: #20205B;
+}
+.stock-price{
+    color: white;
+    margin: 0 12px;
+}
+
+#stock-percentage-ds{
+     margin: 0 2vh;
+}
+
+#detail-section{
+    color: white;
+}
+#stock-name-ds{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+#detail-section{
+    position: relative;
+    margin-top: 2vh;
+    margin-left: 6vh;
+}
+#stock-price-ds{
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0 2vh; */
+}
+#description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    /* font-weight: 10; */
+    margin: 1vh 0;
+    max-width: 110vh;
+}
+.red{
+    color: red;
+}
+.green{
+    color: greenyellow;
+}
+#chart-list{
+    display: flex;
+    list-style: none;
+}
+.chart-list-item{
+    justify-content: center;
+    margin: auto;
+}
+.chart-list-item button{
+    color: white;
+    border-radius: 20px;
+    background-color: #2A2A79;
+
+
+}
